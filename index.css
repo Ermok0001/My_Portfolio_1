@@ -1,0 +1,180 @@
+h6,h5,h4,h3,h2,h1,p{
+    margin: 0;
+}
+body{
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.ytol{
+    font-size: 23px;
+}
+section{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.etol h1,h2{
+    font-size: 25px;
+}
+.etol p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.ttol{
+    background-color: rgb(53, 53, 53);
+    height: 220px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    border: solid;
+    border-radius: 15%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.htol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 7px;
+    color: orange;
+    padding-top: 20px;
+}
+.rel{
+    margin-top: 10px;
+    height: 30px;
+    background-color: orange;
+    border: solid;
+    border-color: white;
+}
+.erol h3{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.erol p{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.grol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 40px;
+}
+.hlol{
+    margin-top: 20px;
+    border: solid;
+    border-color: red;
+    border-radius: 32px;
+    width: 400px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+footer{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+}
+.qlol{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 40px;
+
+}
+.tlol{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    color: white;
+    font-size: 8px;
+}
+.qlol{
+  column-gap: 150px;
+}
+.eqol{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.cqol{
+    background-color: rgb(255, 119, 0);
+    color: white;
+    height: 40px;
+    border: solid;
+    border-color: white;
+}
+.xqol{
+    height: 40px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.zqol{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    width: 550px;
+    position: relative;
+    background-color: rgb(227, 194, 150);
+    display: flex;
+    flex-direction: column;
+}
+
+.floting_img{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: solid;
+    border-radius: 100%;
+    border-color: white;
+}
+.insta{
+top: 25%;
+right: 30%;
+}
+.gmail{
+top: 50%;
+left: 30%;
+}
+.linked{
+top: 75%;
+right: 30%;
+}
+.zqol h1{
+    text-align: center;
+}
+.ssol{
+    height: 700px;
+    padding-bottom: 0px;
+}
+.floting_img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
